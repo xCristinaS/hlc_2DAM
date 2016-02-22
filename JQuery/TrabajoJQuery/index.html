@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- IE debe usar el último motor de renderizado -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- La página debe ocupar todo el ancho disponible en el navegador del dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trabajo jQuery & Node</title>
+    <!-- Se vincula el archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="../Base/css/bootstrap.css">
+    <!-- Tema opcional -->
+    <link rel="stylesheet" href="../Base/css/bootstrap-theme.css">
+    <!-- Se cargan los scripts necesarios para que Bootstrap funcione 
+        con HTML 5 y CSS 3 en IE8+ -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- CSS propio que machaca al css de bootstrap -->
+    <link href="toast/toastr.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="dropdown-header navbar-fixed-top">
+        <h1>CRUD Alumnos</h1>
+        <button id="btnAgregar" class="btn-default" data-toggle="modal" data-target="#myModal"><img src="imagenes/nuevo.png" alt="nuevo" /></button>
+    </header>
+    <section>
+        <table class="table-bordered table-striped">
+            <tr id="cabeceraTabla">
+                <th class="foto">Foto</th>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>Dirección</th>
+                <th>Edad</th>
+                <th>Curso</th>
+                <th>Repetidor</th>
+                <th colspan="2">Acciones</th>
+            </tr>
+            <tr id="trBase">
+                <td id="btnFoto" class="foto"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <!-- Ventana modal base para eliminados -->
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-md">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button id="btnCerrarModal" type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Formulario de alumno (ingreso o modificación)</h4>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="container-fluid">
+                                <div class="form-group col-md-6">
+                                    <label for="txtNombre">Nombre</label>
+                                    <input type="text" name="txtNombre" id="txtNombre">
+                                    <br>
+                                    <br>
+                                    <label for="txtEdad">Edad</label>
+                                    <input type="number" step="1" min="1" max="99" name="txtEdad" id="txtEdad">
+                                    <br>
+                                    <br>
+                                    <label for="txtTelefono">Teléfono</label>
+                                    <input type="text" name="txtTelefono" id="txtTel">
+                                    <br>
+                                    <br>
+                                    <label for="cbRepetidor">Repetidor</label>
+                                    <input type="checkbox" name="cbRepetidor" id="cbRep">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="txtDireccion">Dirección</label>
+                                    <input type="text" name="txtDireccion" id="txtDir">
+                                    <br>
+                                    <br>
+                                    <label for="txtCurso">Curso</label>
+                                    <input type="text" name="Curso" id="txtCur">
+                                    <br>
+                                    <br>
+                                    <label for="txtFoto">Foto</label>
+                                    <input type="text" name="txtFoto" id="txtFoto">
+                                    <br>
+                                    <br>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="btnModal" type="button" class="btn btn-default" data-dismiss="modal">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Se cargan los archivos JavaScript de jQuery y Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="../Base/js/bootstrap.js"></script>
+    <script src="../JQuery/jquery-2.1.4.js"></script>
+    <script src="javaS.js"></script>
+    <script src="toast/toastr.js"></script>
+</body>
+
+</html>

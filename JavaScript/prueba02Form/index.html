@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- IE debe usar el último motor de renderizado -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- La página debe ocupar todo el ancho disponible en el navegador del dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plantilla</title>
+    <!-- Se vincula el archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Tema opcional -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <!-- Se cargan los scripts necesarios para que Bootstrap funcione 
+        con HTML 5 y CSS 3 en IE8+ -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- CSS propio que machaca al css de bootstrap -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" method="post" class="container"> 
+        <div class="row">
+            <div class="form-group col-md-6">
+                <label for="txtNombre">Nombre</label>
+                <input type="text" name="txtNombre" id="txtNombre">
+                <br>
+                <br>
+                <label for="txtEdad">Edad</label>
+                <input type="number" step="1" min="1" max="99" name="txtEdad" id="txtEdad">
+                <br>
+                <br>
+                <label for="cbRepetidor">Repetidor</label>
+                <input type="checkbox" name="cbRepetidor" id="cbRepetidor">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="poblacion">Población</label>
+                <select name="poblacion" id="idPoblacion">
+                    <option value="algeciras">Algeciras</option>
+                    <option value="laLinea">La Línea</option>
+                    <option value="tarifa">Tarifa</option>
+                </select>
+                <br>
+                <br>
+                <label for="rbGenero">Género</label>
+                <br>
+                <input type="radio" name="genero" value="Hombre" checked="true" id="generoH">&nbsp;<span>Hombre</span>
+                <br>
+                <input type="radio" name="genero" value="Mujer" id="generoM">&nbsp;<span>Mujer</span>
+            </div>
+            <div class="form-group col-md-12">
+                <label for="comentario">Comentario</label>
+                <br>
+                <textarea name="comentario" id="idComentario" cols="30" rows="10"></textarea>
+                <br>
+                <button id="enviar">Enviar</button>
+            </div>
+        </div>
+    </form> 
+    <div class="container" id="result" style="display:none">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">Datos formulario</h3>
+            </div>
+            <div class="panel-body">
+                <p id="resultNombre">Nombre:&nbsp;</p>
+                <p id="resultEdad">Edad:&nbsp;</p>
+                <p id="resultRepetidor">¿Es repetidor?:&nbsp;</p>
+                <p id="resultPoblacion">Población:&nbsp;</p>
+                <p id="resultGenero">Genero:&nbsp;</p>
+                <p id="resultComentario">Comentario:<br></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Se cargan los archivos JavaScript de jQuery y Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="javaS.js"></script>
+</body>

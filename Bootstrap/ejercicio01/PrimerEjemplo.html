@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Se debe utilizar el juego de caracteres utf-8 -->
+    <meta charset="UTF-8">
+    <!-- IE debe usar el último motor de renderizado -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- La página debe ocupar todo el ancho disponible en el navegador del dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi primera aplicación Bootstrap</title>
+    <!-- Se vincula el archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Tema opcional -->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <!-- Se cargan los scripts necesarios para que Bootstrap funcione 
+        con HTML 5 y CSS 3 en IE8+ -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- CSS propio que machaca al css de bootstrap -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="cabecera" class="container">
+            <div class="jumbotron">
+                <h1>Yo soy la cabezera</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in odit sequi at deleniti nostrum, aperiam. Vero sapiente pariatur, perspiciatis, similique architecto cupiditate. Sunt non sit fugit qui odit eum.</p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-4 Celda">
+                    <h3>Heading 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in odit sequi at deleniti nostrum, aperiam. Vero sapiente pariatur, perspiciatis, similique architecto cupiditate. Sunt non sit fugit qui odit eum.</p>
+                    <a href="#" class="btn btn-default">Ver detalle</a>
+                </div>
+                <div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-push-4 Celda">
+                    <h3>Heading 2</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in odit sequi at deleniti nostrum, aperiam. Vero sapiente pariatur, perspiciatis, similique architecto cupiditate. Sunt non sit fugit qui odit eum.</p>
+                    <a href="#" class="btn btn-default">Ver detalle</a>
+                </div>
+                <div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-pull-4 hidden-sm Celda">
+                    <h3>Heading 3</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam in odit sequi at deleniti nostrum, aperiam. Vero sapiente pariatur, perspiciatis, similique architecto cupiditate. Sunt non sit fugit qui odit eum.</p>
+                    <a href="#" class="btn btn-default">Ver detalle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <!-- Se cargan los archivos JavaScript de jQuery y Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

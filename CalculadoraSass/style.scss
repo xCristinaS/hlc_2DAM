@@ -1,0 +1,92 @@
+$fondoCalculadora: #9AD1EB;
+$fondoOperaciones: #FFF0F5;
+$moradoHover: #B9ABF9;
+$colorSombra: #76A7BD;
+$btnResetHover: #f68991;
+$btnResetSombra: #FF7B85;
+$btnResetFondo: #FF9EA7;
+$btnIgualFondo: #F1FF8B;
+$btnIgualSombra: #9DA94D;
+$btnIgualHover: #abb850;
+$fondoResultado: #79A7BC;
+$sombraResultado: #638798;
+#calculadora {
+    background-color: $fondoCalculadora;
+    width: 385px;
+    height: 290px;
+    text-align: center;
+    padding: 19px;
+    font: {
+        family: "comic sans ms";
+        weight: bold;
+    }
+}
+
+#contenido {
+    display: flex;
+    flex: {
+        wrap: wrap;
+        grow: nogrow;
+    }
+    div {
+        cursor: pointer;
+        width: 80px;
+        height: 35px;
+        flex: 0 0 auto;
+        margin: 6px;
+        margin-right: 10px;
+        border-radius: 4px;
+        padding-top: 10px;
+        box-shadow: 0px 5px $colorSombra;
+        &.num {
+            background-color: white;
+        }
+        &.operacion {
+            background-color: $fondoOperaciones;
+        }
+        &:active {
+            position: relative;
+            top: 4px;
+        }
+        &:nth-child(2) {
+            flex-basis: 68%;
+        }
+        &:hover {
+            background-color: $moradoHover;
+        }
+    }
+}
+
+#contenido #reset {
+    background-color: $btnResetFondo;
+    color: white;
+    box-shadow: 0px 5px $btnResetSombra;
+    &:hover {
+        background-color: $btnResetHover;
+    }
+}
+
+#contenido #igual {
+    background-color: $btnIgualFondo;
+    box-shadow: 0px 5px $btnIgualSombra;
+    &:hover {
+        background-color: $btnIgualHover;
+    }
+}
+
+#contenido #resultado {
+    background-color: $fondoResultado;
+    color: white;
+    box-shadow: inset 0px 5px $sombraResultado;
+    height: 39px;
+    text-align: right;
+    padding-right: 10px;
+    cursor: default;
+    &:active {
+        top: 0px;
+    }
+}
+
+#punto {
+    background-color: white;
+}

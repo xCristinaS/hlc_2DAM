@@ -1,0 +1,87 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* CABECERA */
+
+header {
+    background-color: #f5f5f5;
+}
+
+#cabecera {
+    height: 70px;
+    padding-top: 20px;
+}
+
+#cabecera button {
+    height: 36px;
+    border: none;
+    padding: 0 14px;
+}
+
+#cabecera a {
+    color: #1c1c9d;
+}
+
+#cabecera a:hover {
+    color: #1c1c9d;
+}
+
+
+/* BARRA DE NAVEGACIÓN */
+
+nav {
+    height: 45px;
+    padding-top: 13px;
+}
+
+nav a {
+    color: black;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* CONTENIDO */
+
+.carousel-caption {
+  width: 100%;
+  text-align: left;
+  left: 0%;
+  right: 0%;
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 52%;
+  padding-bottom: 2%;
+}
+
+#contenido {
+    padding-top: 116px;
+    box-shadow: 1px 1px 30px #c5c5c5;
+}
+
+#contenido h2 {
+    text-align: center;
+}
+
+#contenido p {
+    font-size: 12px;
+}
+
+#seccion3 {
+    margin-top: 50px;
+}
+
+#seccion3 a {
+    margin-left: 8px;
+}
+
+
+/* Pie */
+
+#pie {
+    margin-top: 15px;
+}

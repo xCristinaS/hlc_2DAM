@@ -1,0 +1,11 @@
+table tr td {
+    border: solid 1px;
+}
+
+#trClonar {
+    display: none;
+}
+
+button {
+    margin: 15px;
+}

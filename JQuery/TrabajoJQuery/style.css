@@ -1,0 +1,122 @@
+header {
+    background-color: #bec8d3;
+    border-bottom: 2px white;
+}
+
+section {
+    margin-top: 168px;
+}
+
+table {
+    border-spacing: 0px;
+    margin: 20px auto;
+    -webkit-box-shadow: -10px 3px 28px -6px rgba(0, 0, 0, 0.4), 10px 3px 28px -6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: -10px 3px 28px -6px rgba(0, 0, 0, 0.4), 10px 3px 28px -6px rgba(0, 0, 0, 0.4);
+    box-shadow: -10px 3px 28px -6px rgba(0, 0, 0, 0.4), 10px 3px 28px -6px rgba(0, 0, 0, 0.4);
+}
+
+#trBase {
+    display: none;
+}
+
+tr,
+th,
+td {
+    border: solid 1px;
+}
+
+th {
+    padding: 30px 80px;
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    background-color: #000000;
+    color: white;
+}
+
+td {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+img {
+    margin: 0px;
+    height: 100px;
+    width: 80px;
+}
+
+.foto img {
+    height: 120px;
+}
+
+.foto {
+    text-align: center;
+    width: 70pd;
+    padding: 5px;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Monotype Corsiva';
+    font-style: italic;
+    font-size: 10em;
+    color: white;
+}
+
+#btnAgregar {
+    display: inline-block;
+    float: right;
+    text-align: center;
+    font-family: 'Monotype Corsiva';
+    font-style: italic;
+    font-size: 2em;
+    margin-top: -145px;
+    margin-right: 105px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 20px #c5c5c5;
+}
+
+#btnAgregar img {
+    margin: 15px 23px;
+}
+
+.btnEditar:hover,
+.btnBorrar:hover {
+    cursor: pointer;
+}
+
+.btnEditar:active,
+.btnBorrar:active {
+    position: relative;
+    top: 4px;
+}
+
+label {
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 65px;
+    text-align: right;
+}
+
+input {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    width: 163px;
+}
+
+#cbRep {
+    width: 35px;
+}
+
+.modal-open {
+    overflow: scroll; /* para que no desaparezca la scrollbar de la pagina al abrirse la ventana modal. */
+    padding-right: 0 !important /* para que no me mueva el contenido de la pagina al abrirse la ventana modal. */
+}
+
+.error {
+    box-shadow: -10px 3px 28px -6px red, 10px 3px 28px -6px red;
+}

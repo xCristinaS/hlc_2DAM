@@ -1,0 +1,124 @@
+{
+  "alumnos": [
+    {
+      "id": 1,
+      "foto": "http://lorempixel.com/200/300/cats/3/",
+      "nombre": "Pepito",
+      "curso": "1º CFGS",
+      "telefono": "(879) 588-2177",
+      "direccion": "Harwood Place 4402, Manitou",
+      "edad": 20,
+      "repetidor": false
+    },
+    {
+      "id": 2,
+      "foto": "http://lorempixel.com/200/300/cats/1/",
+      "nombre": "Kelly House",
+      "curso": "1º CFGS",
+      "telefono": "(879) 588-2177",
+      "direccion": "Harwood Place 4402, Manitou",
+      "edad": 29,
+      "repetidor": false
+    },
+    {
+      "id": 3,
+      "foto": "http://lorempixel.com/200/300/life/7/",
+      "nombre": "Patti Vazquez",
+      "curso": "2º CFGM",
+      "telefono": "(929) 494-2864",
+      "direccion": "Nichols Avenue 449, Craig",
+      "edad": 35,
+      "repetidor": false
+    },
+    {
+      "id": 5,
+      "foto": "http://lorempixel.com/200/300/nature/9/",
+      "nombre": "Nielsen Brooks",
+      "curso": "2º CFGM",
+      "telefono": "(896) 465-2637",
+      "direccion": "Bragg Street 417, Gibsonia",
+      "edad": 29,
+      "repetidor": false
+    },
+    {
+      "id": 6,
+      "foto": "http://lorempixel.com/200/300/night/2/",
+      "nombre": "Avery Clements",
+      "curso": "1º CFGM",
+      "telefono": "(943) 573-2994",
+      "direccion": "Seton Place 7309, Otranto",
+      "edad": 34,
+      "repetidor": false
+    },
+    {
+      "id": 7,
+      "foto": "http://lorempixel.com/200/300/city/7/",
+      "nombre": "Nichols Palmer",
+      "curso": "2º CFGM",
+      "telefono": "(874) 540-3967",
+      "direccion": "Girard Street 8078, Fairview",
+      "edad": 26,
+      "repetidor": false
+    },
+    {
+      "id": 8,
+      "foto": "http://lorempixel.com/200/300/abstract/9/",
+      "nombre": "Lawson Price",
+      "curso": "2º CFGS",
+      "telefono": "(985) 400-2459",
+      "direccion": "Kosciusko Street 7922, Juntura",
+      "edad": 23,
+      "repetidor": false
+    },
+    {
+      "id": 9,
+      "foto": "http://lorempixel.com/200/300/animals/1/",
+      "nombre": "Sonya Morton",
+      "curso": "1º CFGS",
+      "telefono": "(804) 429-2759",
+      "direccion": "Johnson Avenue 4461, Tibbie",
+      "edad": 24,
+      "repetidor": true
+    },
+    {
+      "id": 10,
+      "foto": "http://lorempixel.com/200/300/nature/3/",
+      "nombre": "Park Graham",
+      "curso": "2º CFGM",
+      "telefono": "(884) 599-3748",
+      "direccion": "Lawton Street 9150, Hiwasse",
+      "edad": 36,
+      "repetidor": false
+    },
+    {
+      "id": 11,
+      "foto": "http://lorempixel.com/200/300/cats/2/",
+      "nombre": "Guerrero Levine",
+      "curso": "2º CFGM",
+      "telefono": "(958) 517-3263",
+      "direccion": "Prince Street 8406, Grenelefe",
+      "edad": 30,
+      "repetidor": false
+    },
+    {
+      "id": 12,
+      "foto": "http://lorempixel.com/200/300/cats/3/",
+      "nombre": "Marietta Stein",
+      "curso": "2º CFGM",
+      "telefono": "(900) 542-2032",
+      "direccion": "Seagate Terrace 7299, Abrams",
+      "edad": 38,
+      "repetidor": false
+    },
+    {
+      "id": 13,
+      "foto": "http://lorempixel.com/200/300/abstract/10/",
+      "nombre": "Josephine Noel",
+      "curso": "2º CFGM",
+      "telefono": "(955) 465-3515",
+      "direccion": "Harden Street 4870, Chamizal",
+      "edad": 30,
+      "repetidor": false
+    }
+  ]
+}

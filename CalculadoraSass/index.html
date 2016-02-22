@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- IE debe usar el último motor de renderizado -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- La página debe ocupar todo el ancho disponible en el navegador del dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plantilla</title>
+    <!-- Se cargan los scripts necesarios para que Bootstrap funcione 
+        con HTML 5 y CSS 3 en IE8+ -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- CSS propio que machaca al css de bootstrap -->
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        document.onselectstart = function () {
+            return false;
+        }
+        document.onmousedown = function () {
+            return false;
+        }
+    </script>
+</head>
+
+<body>
+    <div id="calculadora">
+        <div id="contenido">
+            <div id="reset">C</div>
+            <div id="resultado"></div>
+            <div id="siete" class="num">7</div>
+            <div id="ocho" class="num">8</div>
+            <div id="nueve" class="num">9</div>
+            <div id="mas" class="operacion">+</div>
+            <div id="cuatro" class="num">4</div>
+            <div id="cinco" class="num">5</div>
+            <div id="seis" class="num">6</div>
+            <div id="menos" class="operacion">-</div>
+            <div id="uno" class="num">1</div>
+            <div id="dos" class="num">2</div>
+            <div id="tres" class="num">3</div>
+            <div id="dividir" class="operacion">/</div>
+            <div id="cero" class="num">0</div>
+            <div id="punto">.</div>
+            <div id="igual">=</div>
+            <div id="multiplicar" class="operacion">x</div>
+        </div>
+    </div>
+
+    <!-- Se cargan los archivos JavaScript de jQuery y Bootstrap -->
+    <script src="javaS.js"></script>
+</body>
+
+</html>

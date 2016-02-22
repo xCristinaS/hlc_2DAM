@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- IE debe usar el último motor de renderizado -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- La página debe ocupar todo el ancho disponible en el navegador del dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicio Individual. Cristina Sola.</title>
+    <!-- Se vincula el archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Tema opcional -->
+    <link rel="stylesheet" href="css/bootstrap-theme.css">
+    <!-- Se cargan los scripts necesarios para que Bootstrap funcione 
+        con HTML 5 y CSS 3 en IE8+ -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    <!-- CSS propio que machaca al css de bootstrap -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header class="navbar-fixed-top">
+        <div class="container">
+            <div class="row" id="cabecera">
+                <div class="col-xs-3 col-sm-offset-1 col-sm-3 col-md-offset-1 col-md-3">
+                    <img src="https:www.google.com/images/branding/googlelogo/1x/googlelogo_color_116x41dp.png" alt="google">
+                </div>
+                <div class="col-xs-push-1 col-xs-4 col-sm-push-2 col-sm-4 col-md-push-3 col-md-4" style="padding-top:10px;">
+                    <a href="#">iniciar sesión</a>
+                </div>
+                <div class="col-xs-5 col-sm-4 col-md-4">
+                    <button class="btn-primary">Crear una cuenta</button>
+                </div>
+            </div>
+        </div>
+        <!-- Parte de la barra de navegación -->
+        <div style="background-color:white; border-top: solid #d9d9d9 1px; border-bottom: solid #d9d9d9 1px;">
+            <div class="container">
+                <div class="row" id="contNav">
+                    <nav class="col-md-push-1 col-md-12">
+                        <span class="col-md-1">
+                            <img src="https://www.google.com/images/icons/product/googlemail-16.png" alt="iconoGmail">&nbsp;<strong>Gmail</strong>
+                        </span>
+                        <a class="col-md-1" href="https://www.gmail.com/intl/es/mail/help/features.html">Funciones</a>
+                        <a class="col-md-2" href="https://www.gmail.com/intl/es/mail/help/mobile.html">Para móviles</a>
+                        <a class="col-md-pull-1 col-md-2" href="https://www.gmail.com/intl/es/mail/help/work.html" style="margin-left:20px;">Para tu empresa</a>
+                        <a class="col-md-pull-2 col-md-1" href="https://support.google.com/mail/?hl=es" style="margin-left:40px;">Ayuda</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="contenido" class="container">
+        <!-- Parte del carrusel -->
+        <section class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="https://www.gmail.com/intl/es/mail/help/images/about-carousel-1.png" alt="1">
+                        <div class="carousel-caption" id="textoCarrusel">
+                            <h3>La sencillez y facilidad de Gmail en todo tipo de dispositivos</h3>
+                            <a href="#" class="btn btn-primary">Crea una cuenta</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://www.gmail.com/intl/es/mail/help/images/about-carousel-2.png" alt="2">
+                        <div class="carousel-caption" id="textoCarrusel">
+                            <h3>La bandeja de entrada de Gmail clasifica tus mensajes por tipo para organizarte mejor</h3>
+                            <a href="#" class="btn btn-primary">Crea una cuenta</a>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="https://www.gmail.com/intl/es/mail/help/images/about-carousel-3.jpg" alt="3">
+                        <div class="carousel-caption" id="textoCarrusel">
+                            <h3 class="">Habla con amigos en una videollamada, chatea con un compañero o llama por teléfono sin salir de tu bandeja de entrada</h3>
+                            <a href="#" class="btn btn-primary">Crea una cuenta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Parte central, el contenido en sí -->
+        <section class="row">
+            <h2 class="col-md-12">Te damos la bienvenida a Gmail</h2>
+            <!-- Primer par de circulos -->
+            <div class="col-sm-12 col-md-push-1 col-md-5 row">
+                <div class="col-xs-12 col-sm-3 col-md-6 text-center">
+                    <img src="https:www.google.com/mail/help/images/circle-experience.png" alt="img1" style="display:inline;">
+                </div>
+                <p class="col-xs-12 col-sm-9 col-md-6" style="padding-top:35px;"><strong>Disfruta de Gmail en cualquier dispositivo</strong>
+                    <br> Tienes lo mejor de Gmail estés donde estés y en cualquier dispositivo. <a href="">Más información sobre Gmail para móviles</a></p>
+            </div>
+            <div class="col-sm-12 col-md-push-1 col-md-5 row">
+                <div class="col-xs-12 col-sm-3 col-md-6 text-center">
+                    <img src="https:www.google.com/intl/es/mail/help/images/circle-hangout-video.png" alt="img1" style="display:inline;">
+                </div>
+                <p class="col-xs-12 col-sm-9 col-md-6" style="padding-top:35px; "><strong>Habla en diferentes dispositivos</strong>
+                    <br> Hangouts da vida a las conversaciones con fotos, emojis e incluso videollamadas de grupo gratis. Habla con amigos desde tu ordenador y en dispositivos Android y Apple. <a href="">Más información sobre Hangouts</a></p>
+            </div>
+            <!-- Segundo par de circulos -->
+            <div class="col-sm-12 col-md-push-1 col-md-5 row">
+                <div class="col-xs-12 col-sm-3 col-md-6 text-center">
+                    <img src="https:www.google.com/intl/es/mail/help/images/circle-storage.png" alt="img1" style="display:inline;">
+                </div>
+                <p class="col-xs-12 col-sm-9 col-md-6" style="padding-top:35px;"><strong>Descubre la nueva bandeja de entrada</strong>
+                    <br> Con las nuevas pestañas personalizables lo controlas todo: de un vistazo sabes qué hay de nuevo y decides qué mensajes leer y cuándo hacerlo. <a href="">Más información sobre la nueva bandeja de entrada</a></p>
+            </div>
+
+            <div class="col-sm-12 col-md-push-1 col-md-5 row">
+                <div class="col-xs-12 col-sm-3 col-md-6 text-center">
+                    <img src="https:www.google.com/intl/es/mail/help/images/circle-storage.png" alt="img1" style="display:inline;">
+                </div>
+                <p class="col-xs-12 col-sm-9 col-md-6" style="padding-top:35px;"><strong>Un montón de espacio gratis</strong>
+                    <br> Se acabó lo de borrar correos para ahorrar espacio: ahora, entre Gmail, Google Drive y Google Fotos, dispones de 15 GB en total de almacenamiento gratuito. <a href="">Más información sobre el espacio de almacenamiento</a></p>
+            </div>
+            <!-- Tercer par de circulos -->
+            <div class="col-sm-12 col-md-push-1 col-md-5 row">
+                <div class="col-xs-12 col-sm-3 col-md-6 text-center">
+                    <img src="https:www.google.com/mail/help/images/work-feature-1.png" alt="img1" style="display:inline;">
+                </div>
+                <p class="col-xs-12 col-sm-9 col-md-6" style="padding-top:35px;"><strong>Gmail para el trabajo</strong>
+                    <br> Consigue un correo electrónico personalizado tipo @tu_empresa.com con calendarios, documentos, videoconferencias y otras funciones al que podrás acceder con tu teléfono o tablet. <a href="">Más información sobre Gmail para el trabajo</a></p>
+            </div>
+            <div class="col-sm-12 col-md-push-1 col-md-5 row">
+                <div class="col-sm-3 col-md-6 text-center">
+                    <img src="https:www.google.com/intl/es/mail/help/images/circle-help.png" alt="img1" style="display:inline;">
+                </div>
+                <p class="col-sm-9 col-md-6" style="padding-top:35px;"><strong>¿Necesitas ayuda?</strong>
+                    <br> ¿Tienes alguna duda sobre Gmail? En el <a href="">centro de ayuda</a> encontrarás las preguntas más frecuentes y muchas sugerencias.</p>
+            </div>
+        </section>
+    </div>
+    <!-- Tercera parte de la página, el cacho de por encima del pie. -->
+    <section style="background-color: #f5f5f5; border-top: solid 1px #d9d9d9; border-bottom: solid 1px #d9d9d9;  height:120px;">
+        <div class="container">
+            <div class="row" id="seccion3">
+                <div class="col-md-offset-1 col-md-11">
+                    <a href="">Nuestra política</a>
+                    <a href="">Ayuda</a>
+                    <a href="">Para tu empresa</a>
+                    <a href="">Para móviles</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer style="background-color: #ebe9e9; height:40px; font-size:10px">
+        <div class="container">
+            <div class="row" id="pie">
+                <div class="col-md-offset-1 col-md-11">
+                    <span>
+                       <a href="">Google</a>&nbsp;-&nbsp; 
+                        <a href="">Acerca de</a>&nbsp;-&nbsp;
+                        <a href="">Privacidad</a>&nbsp;-&nbsp;
+                        <a href="">Condiciones</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Se cargan los archivos JavaScript de jQuery y Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

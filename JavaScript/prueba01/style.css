@@ -1,0 +1,31 @@
+/* Ejercicio 03 
+
+.neCurs {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10em;
+}
+*/
+
+
+/* Ejercicio 04 
+
+#contenedor {
+    border: solid 1px;
+    width: 50%;
+    height: 400px;
+}
+*/
+
+
+/* Ejercicio 05 y 06 */ 
+
+table,
+td {
+    border: solid 1px;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
